@@ -27,7 +27,7 @@ export default function Home() {
     const elements = document.querySelectorAll(".zoom-in");
     elements.forEach((el, index) => {
       setTimeout(() => {
-        el.classList.add("show");
+        el.classList.add("show the origin");
       }, index * 600); // Adjust the delay as needed
     });
   }, []);
